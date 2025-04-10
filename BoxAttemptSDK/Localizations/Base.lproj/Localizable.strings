@@ -1,0 +1,13 @@
+"Common.Error" = "Client error";
+"Global.Uninitialized" = "Client is not initialized";
+"Global.Unsigned" = "User is not logined";
+"Global.Noguest" = "User is not guest, cannot be bound";
+"Global.AuthExpired" = "Authorization has expired";
+"Global.AuthCanceled" = "Authorization process has been canceled";
+"Init.BaseURLFailed" = "The BaseURL is empty or the format is incorrect, please contact the service provider for help";
+"Init.Failed" = "Initialization exception";
+"InitThirdparty.Failed" = "Missing configuration, third-party service initialization failed";
+"Recharge.Repeated" = "There is an order in progress now, please dont open another one.";
+"Recharge.Canceled" = "Order has been canceled";
+"Recharge.Incompleted" = "Order parameters was incomplete";
+"Recharge.NoAppleProduct" = "Query Apple Product Info Failed";

@@ -1,0 +1,13 @@
+"Common.Error" = "客户端异常";
+"Global.Uninitialized" = "客户端未初始化";
+"Global.Unsigned" = "用户未登录";
+"Global.Noguest" = "非游客账号，不能绑定";
+"Global.AuthExpired" = "用户凭证已失效";
+"Global.AuthCanceled" = "用户中止第三方授权";
+"Init.BaseURLFailed" = "获取BaseURL为空或格式错误，请联系服务提供方寻求帮助";
+"Init.Failed" = "初始化失败";
+"InitThirdparty.Failed" = "缺少配置，第三方服务初始化失败";
+"Recharge.Repeated" = "有订单正在进行中，请勿重复创建";
+"Recharge.Canceled" = "用户关闭支付界面";
+"Recharge.Incompleted" = "充值参数缺失";
+"Recharge.NoAppleProduct" = "查询苹果商品信息失败";

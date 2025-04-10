@@ -1,0 +1,13 @@
+"Common.Error" = "客戶端異常";
+"Global.Uninitialized" = "用戶未登錄";
+"Global.Unsigned" = "用戶未登錄";
+"Global.Noguest" = "非遊客帳號，不能綁定";
+"Global.AuthExpired" = "用戶憑證已失效";
+"Global.AuthCanceled" = "用戶中止第三方授權";
+"Init.BaseURLFailed" = "獲取的BaseURL為空或格式有誤，請聯絡服務提供者尋求幫助";
+"Init.Failed" = "初始化失敗";
+"InitThirdparty.Failed" = "缺少設定，第三方服務初始化失敗";
+"Recharge.Repeated" = "有訂單正在進行中，請勿重復創建";
+"Recharge.Canceled" = "用戶關閉支付界面";
+"Recharge.Incompleted" = "儲值參數缺失";
+"Recharge.NoAppleProduct" = "查詢蘋果商品信息失敗";

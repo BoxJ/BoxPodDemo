@@ -1,0 +1,117 @@
+PODS:
+  - AppsFlyerFramework (6.9.2):
+    - AppsFlyerFramework/Main (= 6.9.2)
+  - AppsFlyerFramework/Main (6.9.2)
+  - BoxAttemptSDK (1.0.0):
+    - BoxAttemptSDK/Core (= 1.0.0)
+    - BoxAttemptSDK/Resource (= 1.0.0)
+  - BoxAttemptSDK/Core (1.0.0):
+    - JMBusiness
+    - JMFlyer
+    - JMRisk
+    - JMRktCommon
+    - JMRktInfo
+    - JMRktRequest
+    - JMUIKit
+    - JMUtils
+  - BoxAttemptSDK/Resource (1.0.0):
+    - JMResource
+    - JMTheme
+    - JMUIKit
+  - JMBusiness (0.1.8):
+    - JMBusiness/Core (= 0.1.8)
+  - JMBusiness/Core (0.1.8)
+  - JMFlyer (0.1.15):
+    - JMFlyer/Core (= 0.1.15)
+  - JMFlyer/Core (0.1.15):
+    - AppsFlyerFramework (~> 6.9.0)
+  - JMNetworking (1.0.12):
+    - JMNetworking/Core (= 1.0.12)
+  - JMNetworking/Core (1.0.12):
+    - JMNetworking/Source
+  - JMNetworking/Source (1.0.12)
+  - JMRequest (1.0.9):
+    - JMRequest/Core (= 1.0.9)
+  - JMRequest/Core (1.0.9):
+    - JMNetworking
+    - JMRequest/SourceMode
+  - JMRequest/SourceMode (1.0.9)
+  - JMResource (0.1.12):
+    - JMResource/Core (= 0.1.12)
+  - JMResource/Core (0.1.12)
+  - JMRisk (0.1.5):
+    - JMRisk/Core (= 0.1.5)
+  - JMRisk/Core (0.1.5):
+    - JMRktCommon
+    - JMUtils
+  - JMRktCommon (2.0.0):
+    - JMRktCommon/Core (= 2.0.0)
+  - JMRktCommon/Core (2.0.0):
+    - JMUIKit
+    - JMUtils
+  - JMRktInfo (0.2.1):
+    - JMRktInfo/Core (= 0.2.1)
+  - JMRktInfo/Core (0.2.1):
+    - JMUtils
+  - JMRktRequest (0.1.6):
+    - JMRktRequest/Core (= 0.1.6)
+  - JMRktRequest/Core (0.1.6):
+    - JMNetworking
+    - JMRequest
+    - JMRktCommon
+    - JMUtils
+  - JMTheme (0.1.15):
+    - JMTheme/Core (= 0.1.15)
+  - JMTheme/Core (0.1.15)
+  - JMUIKit (0.1.19):
+    - JMUIKit/Core (= 0.1.19)
+  - JMUIKit/Core (0.1.19):
+    - JMTheme
+    - JMUtils
+  - JMUtils (2.1.19):
+    - JMUtils/Core (= 2.1.19)
+  - JMUtils/Core (2.1.19)
+
+DEPENDENCIES:
+  - BoxAttemptSDK (from `../`)
+
+SPEC REPOS:
+  "git@gitlab-ee.jiamiantech.com:zy/architecture/ios/jiamianspecs.git":
+    - JMBusiness
+    - JMFlyer
+    - JMNetworking
+    - JMRequest
+    - JMResource
+    - JMRisk
+    - JMRktCommon
+    - JMRktInfo
+    - JMRktRequest
+    - JMTheme
+    - JMUIKit
+    - JMUtils
+  https://mirrors.bfsu.edu.cn/git/CocoaPods/Specs.git:
+    - AppsFlyerFramework
+
+EXTERNAL SOURCES:
+  BoxAttemptSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppsFlyerFramework: 75e2e46970e520c88b0456dc6fae98c51b36163a
+  BoxAttemptSDK: e73cb2858d897ddef4082f5d7808c28b2aa86658
+  JMBusiness: fced50d027a84efae2a34aaa23e2fc52d22ebe27
+  JMFlyer: 0b4eb0c6a43ef5abaa0973cde6f885ec42400f65
+  JMNetworking: 7aba78ae35816c3c331ebd47d15e4f6eadb86002
+  JMRequest: 3f40d0701915de94e9348b02557029f03344bf48
+  JMResource: 6bd42ea91832a5417f711dada74d525c44781bde
+  JMRisk: f6dd005ae12f4cddc7aacfea984e1da96866bf90
+  JMRktCommon: 0d4f1fa1cba597dd21e7ab85d2aff50721000485
+  JMRktInfo: f2d5f1b56acf0cefb4eec7e46b6c8b2ea2807258
+  JMRktRequest: 183a172c397714df6cf4a87204ab62eb9ca49cf4
+  JMTheme: a5f7000f0c417fa41698e0128dd90650eef3e4cc
+  JMUIKit: 6c743092d12b1a9c78cd19d680ce79623defbf38
+  JMUtils: 2b6adf7cd334d9d98af8467c53bb61aef67911ee
+
+PODFILE CHECKSUM: 3f185cf9df2e3ae458798ee94fb11e30a7ca1fdf
+
+COCOAPODS: 1.15.2
